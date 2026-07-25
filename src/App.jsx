@@ -29,7 +29,7 @@ function App() {
     setResult(null);
 
     try {
-      const response = await fetch('https://page-pulse-backend-v4yh.onrender.com', {
+      const response = await fetch('https://page-pulse-backend-v4yh.onrender.com/api/audit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
